@@ -1,5 +1,5 @@
 
-defind(['jquery'], function($){
+define(['jquery'], function($){
 	$('form').on('submit',function(){
 	    var _this = $(this);    
 	    $.ajax({
