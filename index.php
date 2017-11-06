@@ -5,13 +5,12 @@
     <title>乐淘 - 后台管理</title>
     <?php include './common/style.html'; ?>
 </head>
-<body>
-    
-   <?php include './common/aside.html'; ?>
+<body>   
+    <?php include './common/aside.html' ?>
     <!-- 主体 -->
     <div class="main">
         <div class="container-fluid">
-          <?php include './common/header.html'; ?>
+         <?php include './common/header.html' ?>
             <!-- 个人资料 -->
             <div class="body dashboard">
                 <div class="row survey">
@@ -56,6 +55,7 @@
     <script src="/public/assets/nprogress/nprogress.js"></script>
     <script src="/public/assets/echarts/echarts.min.js"></script>
     <script src="/public/js/common.js"></script> -->
+
     <?php include './common/script.html'; ?>
     <script>
 
